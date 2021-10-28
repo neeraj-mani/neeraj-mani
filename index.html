@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML live Coder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script type="text/javascript">
+function Run(){
+  var input=document.getElementById("editor");
+  var result=document.getElementById("ResScreen");
+  result.srcdoc=input.value;
+}
+</script>
+<body>
+  <div class="menu">
+    <div class="menuItem">
+      <button onclick="Run()">Run ></button>
+      
+    <span class="titleLogo">HTML Live Coder</span>
+    </div>
+  </div>
+  <div class="workspace">
+  <span class="editorWorkspace">
+    <div class="title">Code</div>
+    <textarea id="editor" name="codeEdit" class="editor" cols="30" rows="10" placeholder="Write your code here..."></textarea>
+  </span>
+  <span class="editorWorkspace">
+    <div class="title">Result</div>
+    <iframe id="ResScreen" frameborder="0" allowfullscreen="true" srcdoc="Your output will be shown here..."></iframe>
+  </span>
+  </div>
+</body>
+</html>
