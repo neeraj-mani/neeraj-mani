@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @neeraj-mani
 - 👀 I’m interested in web development
 - 🌱 I’m currently learning fullStack development
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on MERN Stack
 - 📫 How to reach me ...
 
 <!---
